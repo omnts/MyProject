@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE3176082A02D6F50057A852 /* MyCars in Frameworks */ = {isa = PBXBuildFile; productRef = FE3176072A02D6F50057A852 /* MyCars */; };
+		FE5372B42A039C9F00E2AA89 /* MyCars in Frameworks */ = {isa = PBXBuildFile; productRef = FE5372B32A039C9F00E2AA89 /* MyCars */; };
 		FE8BE8352A02BD3400D1B20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BE8342A02BD3400D1B20C /* AppDelegate.swift */; };
 		FE8BE8382A02BD3400D1B20C /* MyProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE8BE8362A02BD3400D1B20C /* MyProject.xcdatamodeld */; };
 		FE8BE83A2A02BD3600D1B20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE8392A02BD3600D1B20C /* Assets.xcassets */; };
@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE3176052A02D6980057A852 /* MyCars */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyCars; path = ../MyCars; sourceTree = "<group>"; };
 		FE8BE8312A02BD3400D1B20C /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8BE8342A02BD3400D1B20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE8BE8372A02BD3400D1B20C /* MyProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyProject.xcdatamodel; sourceTree = "<group>"; };
@@ -54,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3176082A02D6F50057A852 /* MyCars in Frameworks */,
+				FE5372B42A039C9F00E2AA89 /* MyCars in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +77,6 @@
 		FE3176042A02D6980057A852 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				FE3176052A02D6980057A852 /* MyCars */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -158,7 +156,7 @@
 			);
 			name = MyProject;
 			packageProductDependencies = (
-				FE3176072A02D6F50057A852 /* MyCars */,
+				FE5372B32A039C9F00E2AA89 /* MyCars */,
 			);
 			productName = MyProject;
 			productReference = FE8BE8312A02BD3400D1B20C /* MyProject.app */;
@@ -233,6 +231,7 @@
 			);
 			mainGroup = FE8BE8282A02BD3400D1B20C;
 			packageReferences = (
+				FE5372B22A039C9F00E2AA89 /* XCRemoteSwiftPackageReference "MyCars" */,
 			);
 			productRefGroup = FE8BE8322A02BD3400D1B20C /* Products */;
 			projectDirPath = "";
@@ -607,9 +606,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		FE5372B22A039C9F00E2AA89 /* XCRemoteSwiftPackageReference "MyCars" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/omnts/MyCars";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		FE3176072A02D6F50057A852 /* MyCars */ = {
+		FE5372B32A039C9F00E2AA89 /* MyCars */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = FE5372B22A039C9F00E2AA89 /* XCRemoteSwiftPackageReference "MyCars" */;
 			productName = MyCars;
 		};
 /* End XCSwiftPackageProductDependency section */

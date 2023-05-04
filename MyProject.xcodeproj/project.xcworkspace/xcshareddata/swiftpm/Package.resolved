@@ -1,21 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "mycars",
+      "identity" : "omnpresets",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/omnts/MyCars",
+      "location" : "https://github.com/omnts/OMNPresets",
       "state" : {
         "branch" : "main",
-        "revision" : "656b95299f6f4faf528d2c805a85a7539a3c0d21"
+        "revision" : "f727d6cd0b102f10dfb2985605d8bd9e2356f40d"
       }
     },
     {
-      "identity" : "mytools",
+      "identity" : "omntools",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/omnts/MyTools.git",
+      "location" : "https://github.com/omnts/OMNTools.git",
       "state" : {
         "branch" : "main",
-        "revision" : "a1d70c88d428a85d11e3445557e28ed2c4c428f4"
+        "revision" : "e8b30fc4c269c046aca1b9fd5f1ff65e68d4f860"
       }
     }
   ],

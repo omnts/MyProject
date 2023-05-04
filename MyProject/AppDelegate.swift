@@ -6,7 +6,7 @@
 //
 
 import Cocoa
-import MyCars
+import OMNPresets
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {

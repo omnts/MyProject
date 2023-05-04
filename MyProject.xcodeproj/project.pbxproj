@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE5372B42A039C9F00E2AA89 /* MyCars in Frameworks */ = {isa = PBXBuildFile; productRef = FE5372B32A039C9F00E2AA89 /* MyCars */; };
+		FE3330242A03B890001F258D /* OMNPresets in Frameworks */ = {isa = PBXBuildFile; productRef = FE3330232A03B890001F258D /* OMNPresets */; };
 		FE8BE8352A02BD3400D1B20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BE8342A02BD3400D1B20C /* AppDelegate.swift */; };
 		FE8BE8382A02BD3400D1B20C /* MyProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE8BE8362A02BD3400D1B20C /* MyProject.xcdatamodeld */; };
 		FE8BE83A2A02BD3600D1B20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE8392A02BD3600D1B20C /* Assets.xcassets */; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5372B42A039C9F00E2AA89 /* MyCars in Frameworks */,
+				FE3330242A03B890001F258D /* OMNPresets in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE3176042A02D6980057A852 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		FE3176062A02D6F50057A852 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +84,6 @@
 		FE8BE8282A02BD3400D1B20C = {
 			isa = PBXGroup;
 			children = (
-				FE3176042A02D6980057A852 /* Packages */,
 				FE8BE8332A02BD3400D1B20C /* MyProject */,
 				FE8BE8462A02BD3600D1B20C /* MyProjectTests */,
 				FE8BE8502A02BD3600D1B20C /* MyProjectUITests */,
@@ -156,7 +148,7 @@
 			);
 			name = MyProject;
 			packageProductDependencies = (
-				FE5372B32A039C9F00E2AA89 /* MyCars */,
+				FE3330232A03B890001F258D /* OMNPresets */,
 			);
 			productName = MyProject;
 			productReference = FE8BE8312A02BD3400D1B20C /* MyProject.app */;
@@ -231,7 +223,7 @@
 			);
 			mainGroup = FE8BE8282A02BD3400D1B20C;
 			packageReferences = (
-				FE5372B22A039C9F00E2AA89 /* XCRemoteSwiftPackageReference "MyCars" */,
+				FE3330222A03B890001F258D /* XCRemoteSwiftPackageReference "OMNPresets" */,
 			);
 			productRefGroup = FE8BE8322A02BD3400D1B20C /* Products */;
 			projectDirPath = "";
@@ -607,9 +599,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FE5372B22A039C9F00E2AA89 /* XCRemoteSwiftPackageReference "MyCars" */ = {
+		FE3330222A03B890001F258D /* XCRemoteSwiftPackageReference "OMNPresets" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/omnts/MyCars";
+			repositoryURL = "https://github.com/omnts/OMNPresets";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -618,10 +610,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FE5372B32A039C9F00E2AA89 /* MyCars */ = {
+		FE3330232A03B890001F258D /* OMNPresets */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FE5372B22A039C9F00E2AA89 /* XCRemoteSwiftPackageReference "MyCars" */;
-			productName = MyCars;
+			package = FE3330222A03B890001F258D /* XCRemoteSwiftPackageReference "OMNPresets" */;
+			productName = OMNPresets;
 		};
 /* End XCSwiftPackageProductDependency section */
 
